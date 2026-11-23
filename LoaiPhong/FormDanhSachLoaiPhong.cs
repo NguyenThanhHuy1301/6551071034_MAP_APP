@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using ClosedXML.Excel;   
 using HotelManagement.Models;   
 using Microsoft.EntityFrameworkCore;  
+using HotelManagement.ChiTietTienNghi;  
   
 namespace HotelManagement.LoaiPhong   
 {   
@@ -163,9 +164,10 @@ DataGridViewCellEventArgs e)
               }   
               else if (tenCot == "colTienNghi")   
               {   
-                  MessageBox.Show(   
-                      $"Chức năng chi tiết tiện nghi của loại phòng {tenLPH} ({maLPH}) đang được xây dựng.",   
-                      "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);   
+                  using (var formTienNghi = new FormDanhSachChiTietTienNghi(maLPH, tenLPH ?? ""))   
+                  {   
+                      formTienNghi.ShowDialog();   
+                  }   
               }   
           }  
   

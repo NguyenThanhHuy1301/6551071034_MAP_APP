@@ -65,3 +65,4 @@ D:\LapTrinhTrucQuan\TH buổi 1\HotelManagement\obj\Debug\net10.0-windows\HotelM
 D:\LapTrinhTrucQuan\TH buổi 1\HotelManagement\obj\Debug\net10.0-windows\HotelManagement.LoaiPhong.FormDanhSachLoaiPhong.resources
 D:\LapTrinhTrucQuan\TH buổi 1\HotelManagement\obj\Debug\net10.0-windows\HotelManagement.LoaiPhong.FormSuaLoaiPhong.resources
 D:\LapTrinhTrucQuan\TH buổi 1\HotelManagement\obj\Debug\net10.0-windows\HotelManagement.LoaiPhong.FormThemLoaiPhong.resources
+D:\LapTrinhTrucQuan\TH buổi 1\HotelManagement\obj\Debug\net10.0-windows\HotelManagement.sourcelink.json
